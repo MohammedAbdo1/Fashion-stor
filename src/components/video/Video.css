@@ -1,0 +1,48 @@
+.video video {
+  width: 100%;
+}
+
+.title-video {
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+.title-video a {
+  color: black;
+}
+
+.iconpdown {
+  position: relative;
+  animation: bounce 2s ease infinite;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px !important;
+  margin-bottom: 0px;
+  width: 30px;
+  cursor: pointer;
+}
+@keyframes bounce {
+  70% {
+    transform: translateY(0%);
+  }
+  80% {
+    transform: translateY(-15%);
+  }
+  90% {
+    transform: translateY(0%);
+  }
+  95% {
+    transform: translateY(-7%);
+  }
+  97% {
+    transform: translateY(0%);
+  }
+  99% {
+    transform: translateY(-3%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

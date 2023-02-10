@@ -1,0 +1,19 @@
+.backToTop {
+  text-align: center;
+  box-shadow: none !important;
+  border: 0px !important;
+  cursor: pointer;
+  position: relative;
+  width: 100px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  
+}
+
+.text {
+  margin-top: -20px;
+}
+.KeyboardControlKey:hover {
+  transform: scale(1.1);
+}
